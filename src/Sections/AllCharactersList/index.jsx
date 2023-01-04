@@ -1,10 +1,11 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import Card from '../../Components/Card';
+import CarrouselButton from '../../Components/CarrouselButton';
 import apiMarvel from '../../services/marvelApi';
 
 import './styles.css';
 
-
+let PageSize = 10;
 
 const AllCharactersList = () => {
 
@@ -20,7 +21,15 @@ const AllCharactersList = () => {
         apiMarvel.get(`public/characters?limit=30&offset=${offset}&ts=${ts}&apikey=${apikey}&hash=${hash}`).then(response => {
             setMarvel(response.data.data.results)
         })
-    }, []);
+    }, [offset]);
+
+    const [currentPage, setCurrentPage] = useState(1);
+
+    const currentTableData = useMemo(() => {
+    const firstPageIndex = (currentPage - 1) * PageSize;
+    const lastPageIndex = firstPageIndex + PageSize;
+    return marvels.slice(firstPageIndex, lastPageIndex);
+    }, [currentPage]);
 
     const paginationPrevious = () => {
         if (offset > 0) {
@@ -36,8 +45,6 @@ const AllCharactersList = () => {
         }
     }
 
-    console.log(offset)
-
     const paginationNext = () => {
         setOffset(offset + 30)
 
@@ -45,7 +52,6 @@ const AllCharactersList = () => {
             setMarvel(response.data.data.results)
         })
     }
-    
   
     
     return(
@@ -58,9 +64,9 @@ const AllCharactersList = () => {
                     <Card name={marvel.name} src={`${marvel.thumbnail.path}.${marvel.thumbnail.extension}`} alt={`Imagem do personagem ${marvel.name}.`} />
                 )
             })}
-            <div>
-                <button onClick={() => paginationPrevious()}>prev</button>
-                <button onClick={() => paginationNext()}>next</button>
+            <div className="pagination-control">
+                <CarrouselButton isPrev onClick={() => paginationPrevious()}></CarrouselButton>
+                <CarrouselButton isNext onClick={() => paginationNext()}></CarrouselButton>
             </div>
         </div>
     )

@@ -6,12 +6,12 @@ const CarrouselButton = (props) => {
         
         <div>
             {props.isPrev ? (
-                <button className="carrousel-button">
+                <button className="carrousel-button" onClick={props.onClick}>
                     {"<"}
                 </button>
             ): null}
             {props.isNext ? (
-                <button className="carrousel-button">
+                <button className="carrousel-button" onClick={props.onClick}>
                     {">"}
                 </button>
             ): null}

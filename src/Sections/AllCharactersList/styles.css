@@ -1,5 +1,4 @@
 .wrapperList {
-    height: 800px;
     background: #ffffff;
     padding: 147px 135px;
 }
@@ -7,4 +6,9 @@
 .title-list {
     text-align: left;
     margin-left: 80px;
+}
+
+.pagination-control {
+    display: flex;
+    justify-content: space-between;
 }
