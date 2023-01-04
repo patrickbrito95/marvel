@@ -1,0 +1,41 @@
+.HightLight-bg {
+    background: #000000;
+    height: 500px;
+    width: 100%;
+    padding: 90px 300px 90px 50px;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+.title {
+    color: white;
+    text-align: left;
+    margin-left: 80px;
+}
+
+.listarea {
+    overflow-x: hidden;
+    margin-left: 80px;
+    margin-right: 80px;
+    width: 80%;
+}
+
+.list {
+    transition: all ease 0.7s;
+}
+
+.items {
+    display: inline-block;
+    width: 200px;
+    cursor: pointer;
+}
+
+.items img {
+    width: 100%;
+    transform: scale(0.9);
+    transition: all ease 0.3s;
+}
+
+.items img:hover {
+    transform: scale(1);
+} 
