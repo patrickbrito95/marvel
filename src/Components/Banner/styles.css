@@ -4,6 +4,8 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     height: 100vh;
 
 }
@@ -22,7 +24,7 @@
     position: absolute;
     background: #000;
     opacity: 0.54;
-    width: 100%;
+    width: 100wv;
     height: 100%;
     z-index: 2;
 }
