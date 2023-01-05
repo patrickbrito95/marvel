@@ -1,20 +1,46 @@
 .navbar {
-    background: #000000;
-    justify-content: space-between;
-    display: flex;
-    color: white;
-    height: 100px;
-    width: 100vw;
-    position: fixed;
-    top: 0;
-    z-index: 10;
+  background: #000000;
+  justify-content: space-between;
+  display: flex;
+  color: white;
+  height: 100px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 10;
 }
 
 .logo {
-    margin: 22px;
+  margin: 22px;
 }
 
 .navbar-item {
-    display: flex;
+  display: flex;
+}
 
+.dropdown-button {
+  background: transparent;
+  border: none;
+}
+
+.dropdown {
+  position: fixed;
+  background: #000000;
+  width: 100vw;
+  top: 100px;
+  animation: growDown 300ms ease-in-out forwards;
+  transform-origin: top center;
+  z-index: 9;
+}
+
+@keyframes growDown {
+  0% {
+    transform: scaleY(0);
+  }
+  80% {
+    transform: scaleY(1.1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
 }

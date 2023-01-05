@@ -1,49 +1,45 @@
-.wrapper-cards-fan {
-
-}
-
 .title-cards-fan {
-    font-size: 62px;
-    margin: 0;
+  font-size: 62px;
+  margin: 0;
 }
 
 .subtitle-cards-fan {
-    font-size: 20px;
-    margin: 0;
-    color: #9B9B9B;
+  font-size: 20px;
+  margin: 0;
+  color: #9b9b9b;
 }
 
 .card-marvel-image {
-    margin-top: 43px;
-    margin-bottom: 15px;
+  margin-top: 43px;
+  margin-bottom: 15px;
+  max-width: 100%;
+  height: auto;
 }
 
 .wrapper-buttons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 245px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 245px;
 }
 
 .call-to-action {
-    width: 325px;
-    background: red;
-    padding: 20px 90px;
-    border: none;
-    font-size: 14px;
-    font-family: 'Oswald', sans-serif;
-    color: #ffffff;
+  width: 325px;
+  background: red;
+  padding: 20px 90px;
+  border: none;
+  font-size: 14px;
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
 }
 
-
-
 .more-information {
-    width: 325px;
-    background: #ffffff;
-    padding: 20px 90px;
-    border: none;
-    font-size: 14px;
-    font-family: 'Oswald', sans-serif;
-    color: red;
+  width: 325px;
+  background: #ffffff;
+  padding: 20px 90px;
+  border: none;
+  font-size: 14px;
+  font-family: "Oswald", sans-serif;
+  color: red;
 }

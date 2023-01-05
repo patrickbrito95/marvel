@@ -1,14 +1,26 @@
 .wrapperList {
-    background: #ffffff;
-    padding: 147px 135px;
+  background: #ffffff;
+  padding: 147px 135px;
 }
 
 .title-list {
-    text-align: left;
-    margin-left: 80px;
+  text-align: left;
+  margin-left: 80px;
 }
 
 .pagination-control {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 988px) {
+  .title-list {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .wrapperList {
+    background: #ffffff;
+    padding: 147px 80px;
+  }
 }

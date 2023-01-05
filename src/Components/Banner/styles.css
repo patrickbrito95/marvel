@@ -1,31 +1,65 @@
 .banner {
-    background: url('../../Assets/banner.jpg'); 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 100vh;
-
+  background: url("../../Assets/banner.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
 }
 
 .banner h1 {
-    color: white;
-    position: relative;
-    top: 400px;
-    left: 135px;
-    font-size: 100px;
-    width: 300px;
-    z-index: 6;
+  color: white;
+  position: relative;
+  top: 350px;
+  left: 135px;
+  font-size: 100px;
+  width: 300px;
+  z-index: 6;
 }
 
 .opacity-banner {
-    position: absolute;
-    background: #000;
-    opacity: 0.54;
-    width: 100wv;
-    height: 100%;
-    z-index: 2;
+  position: absolute;
+  background: #000;
+  opacity: 0.54;
+  width: 100wv;
+  height: 100%;
+  z-index: 2;
 }
 
+@media (max-width: 1000px) {
+  .banner h1 {
+    color: white;
+    position: relative;
+    top: 300px;
+    font-size: 80px;
+    width: 300px;
+    z-index: 6;
+    text-shadow: 2px 3px 4px #919191;
+  }
+}
+
+@media (max-width: 840px) {
+  .banner h1 {
+    color: white;
+    position: relative;
+    font-size: 80px;
+    width: 300px;
+    bottom: 300px;
+    z-index: 6;
+    text-shadow: 2px 3px 4px #919191;
+  }
+}
+
+@media (max-width: 720px) {
+  .banner h1 {
+    color: white;
+    position: absolute;
+    font-size: 60px;
+    left: 0;
+    width: 100vw;
+    z-index: 6;
+    text-shadow: 2px 3px 4px #919191;
+  }
+}

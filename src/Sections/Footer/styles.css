@@ -1,162 +1,275 @@
 /* NEWSLETTER */
 
 .wrapper-newsletter {
-    display: flex;
-    justify-content: space-evenly;
-    height: 350px;
-    background: #000000;
-    padding-left: 250px;
-    padding-right: 250px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 350px;
+  background: #000000;
+  padding-left: 250px;
+  padding-right: 250px;
 }
 
-
 .wrapper-footer {
-    background: #222222;
-    padding: 72px 135px;
-    display: flex;
-    justify-content: space-evenly;
+  background: #222222;
+  padding: 72px 135px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .red-box {
-    width: 408px;
-    height: 329px;
-    background: red;
-    padding: 15px 30px;
-    margin-top: -100px;
-    margin-right: 32px;
+  width: 408px;
+  height: 329px;
+  background: red;
+  padding: 15px 30px;
+  margin-top: -100px;
+  margin-right: 32px;
 }
 
 .red-box h1 {
-    color: #ffffff;
-    font-size: 60px;
+  color: #ffffff;
+  font-size: 60px;
 }
 
 .newsletter {
-    margin-left: 32px;
+  margin-left: 32px;
 }
 
 .newsletter-title {
-    width: 272px;
-    margin-top: 50px;
-    display: flex;
-    justify-content: flex-start;
-    text-align: left;
+  width: 272px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
 }
 
 .newsletter-title span {
-    color: #ffffff;
-    font-size: 20px;
+  color: #ffffff;
+  font-size: 20px;
 }
 
 .newsletter-title span::after {
-    content: "!" ;
-    color: red ;
+  content: "!";
+  color: red;
 }
 
 .newsletter-input label {
-    display: flex;
-    justify-content: flex-start;
-    text-align: left;
-    margin-top: 50px;
-    color: #ffffff;
-    font-size: 13px;
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  margin-top: 50px;
+  color: #ffffff;
+  font-size: 13px;
 }
 
 .newsletter-input input {
-    border: none;
-    width: 350px;
-    height: 60px;
-    margin-top: 15px;
-    padding-left: 21px;
+  border: none;
+  width: 350px;
+  height: 60px;
+  margin-top: 15px;
+  padding-left: 21px;
 }
 
 .newsletter-input button {
-    border: none;
-    height: 62px;
-    width: 120px;
-    background: red;
-    font-size: 14px;
-    color: #ffffff;
-    font-weight: bold;
-    cursor: pointer;
+  border: none;
+  height: 62px;
+  width: 120px;
+  background: red;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
 }
-
 
 /* FOOTER */
 
 .wrapper-footer {
-    display: flex;
+  display: flex;
 }
 
 .wrapper-footer span {
-    color: #ffffff;
-    font-size: 19px;
+  color: #ffffff;
+  font-size: 19px;
 }
 
 .footer-links {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    font-size: 14px;
-    color: #9B9B9B;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #9b9b9b;
 }
 
 .first-block {
-    display: flex;
+  display: flex;
 }
 
 .marvel-logo {
-    margin: 10px 25px;
+  margin: 10px 25px;
 }
 
 .about-marvel {
-    text-align: left;
-    margin: 0 25px;
+  text-align: left;
+  margin: 0 25px;
 }
 
 .media-marvel {
-    text-align: left;
-    margin: 0 25px;
+  text-align: left;
+  margin: 0 25px;
 }
 
 .second-block {
-    display: flex;
+  display: flex;
 }
 
 .last-news-blog {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin: 0 45px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 0 45px;
 }
 
 .last-news-blog a {
-    color: #9B9B9B;
-    font-size: 14px;
-    text-decoration: underline;
+  color: #9b9b9b;
+  font-size: 14px;
+  text-decoration: underline;
 }
 
 .headline-news {
-    display: flex;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .headline-news p {
-    color: #ffffff;
-    font-size: 14px;
-    margin-left: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  margin-left: 10px;
 }
 
-
 .follow-us {
-    margin: 0 45px;
+  margin: 0 45px;
 }
 
 .social-icons {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .social-icons a {
-    margin: 0 8px;
+  margin: 0 8px;
+}
+
+@media (max-width: 1524px) {
+  .wrapper-newsletter {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media (max-width: 1269px) {
+  .red-box h1 {
+    color: #ffffff;
+    margin: 15px;
+  }
+
+  .wrapper-newsletter {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media (max-width: 1184px) {
+  .wrapper-newsletter {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 1064px) {
+  .wrapper-newsletter {
+    display: block;
+    height: auto;
+    background: #000000;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .red-box {
+    width: 100%;
+    background: red;
+    padding: 0px;
+    margin-right: 0px;
+    padding: 20px 0;
+    height: auto;
+  }
+
+  .red-box h1 {
+    margin: 0;
+  }
+
+  .newsletter {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .newsletter-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .newsletter-input label {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .newsletter-input div {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 1079px) {
+  .headline-news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .headline-news p {
+    margin: 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  .wrapper-footer {
+    padding: 72px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .first-block {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .second-block {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .last-news-blog {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .headline-news img {
+    margin: 0 auto;
+  }
 }
