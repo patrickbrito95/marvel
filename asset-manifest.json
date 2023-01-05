@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/marvel/static/css/main.49ac59eb.css",
+    "main.js": "/marvel/static/js/main.350d8fa4.js",
+    "static/js/787.46e105c1.chunk.js": "/marvel/static/js/787.46e105c1.chunk.js",
+    "static/media/banner.jpg": "/marvel/static/media/banner.db2e383ba4847de367c2.jpg",
+    "static/media/hulk.jpg": "/marvel/static/media/hulk.c33132e471851710a912.jpg",
+    "static/media/captain.jpg": "/marvel/static/media/captain.46eb3d608a2016008e74.jpg",
+    "static/media/black-widow.jpg": "/marvel/static/media/black-widow.37e510c60e1b9186d421.jpg",
+    "static/media/thanos.jpg": "/marvel/static/media/thanos.a5c291c7fcf7a9906e4f.jpg",
+    "static/media/thor.jpg": "/marvel/static/media/thor.27385f441b3ad6b93776.jpg",
+    "static/media/cards-fan-desktop.png": "/marvel/static/media/cards-fan-desktop.637cdad21ef7cba40d8c.png",
+    "static/media/spider-man.jpg": "/marvel/static/media/spider-man.70bb1f0ca00dce19981e.jpg",
+    "static/media/black-panther.jpg": "/marvel/static/media/black-panther.6cc716788c45d3948c27.jpg",
+    "static/media/ant-man.jpg": "/marvel/static/media/ant-man.cb1e5886fee177edea3b.jpg",
+    "static/media/doctor-strange.jpg": "/marvel/static/media/doctor-strange.c637cbc6f784828c0473.jpg",
+    "static/media/iron-man.jpg": "/marvel/static/media/iron-man.5b3a2183c15614c31292.jpg",
+    "static/media/wanda.jpeg": "/marvel/static/media/wanda.31540d74c50e25a29d52.jpeg",
+    "index.html": "/marvel/index.html",
+    "main.49ac59eb.css.map": "/marvel/static/css/main.49ac59eb.css.map",
+    "main.350d8fa4.js.map": "/marvel/static/js/main.350d8fa4.js.map",
+    "787.46e105c1.chunk.js.map": "/marvel/static/js/787.46e105c1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49ac59eb.css",
+    "static/js/main.350d8fa4.js"
+  ]
+}
