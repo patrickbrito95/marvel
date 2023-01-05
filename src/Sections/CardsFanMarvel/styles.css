@@ -32,6 +32,11 @@
   font-size: 14px;
   font-family: "Oswald", sans-serif;
   color: #ffffff;
+  cursor: pointer;
+}
+
+.call-to-action:hover {
+  opacity: 0.7;
 }
 
 .more-information {
@@ -42,4 +47,9 @@
   font-size: 14px;
   font-family: "Oswald", sans-serif;
   color: red;
+  cursor: pointer;
+}
+
+.more-information:hover {
+  opacity: 0.7;
 }

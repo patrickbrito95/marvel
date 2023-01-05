@@ -8,3 +8,11 @@
   font-weight: bold;
   color: white;
 }
+
+.navbar-item:hover {
+  color: red;
+}
+
+.social-icons:visited {
+  color: #ffffff;
+}

@@ -1,12 +1,12 @@
-import react from 'react';
-import './styles.css'
+import React from "react";
+import "./styles.css";
 
 const NavbarItem = (props) => {
-    return(
-        <span className="navbar-item">
-            {props.name}
-        </span>
-    )
-}
+  return (
+    <a className="navbar-item" href={props.src}>
+      {props.name}
+    </a>
+  );
+};
 
 export default NavbarItem;
