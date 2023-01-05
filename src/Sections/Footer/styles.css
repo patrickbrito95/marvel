@@ -1,3 +1,5 @@
+/* NEWSLETTER */
+
 .wrapper-newsletter {
     display: flex;
     justify-content: space-evenly;
@@ -9,8 +11,10 @@
 
 
 .wrapper-footer {
-    height: 270px;
     background: #222222;
+    padding: 72px 135px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .red-box {
@@ -75,4 +79,84 @@
     color: #ffffff;
     font-weight: bold;
     cursor: pointer;
+}
+
+
+/* FOOTER */
+
+.wrapper-footer {
+    display: flex;
+}
+
+.wrapper-footer span {
+    color: #ffffff;
+    font-size: 19px;
+}
+
+.footer-links {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #9B9B9B;
+}
+
+.first-block {
+    display: flex;
+}
+
+.marvel-logo {
+    margin: 10px 25px;
+}
+
+.about-marvel {
+    text-align: left;
+    margin: 0 25px;
+}
+
+.media-marvel {
+    text-align: left;
+    margin: 0 25px;
+}
+
+.second-block {
+    display: flex;
+}
+
+.last-news-blog {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 45px;
+}
+
+.last-news-blog a {
+    color: #9B9B9B;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.headline-news {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.headline-news p {
+    color: #ffffff;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+
+.follow-us {
+    margin: 0 45px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 8px;
 }
