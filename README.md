@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+<!-- Título -->
+<h1 align="center"><strong>Teste - SBTUR (Viajar Faz Bem)</strong></h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- Tópicos -->
+<h1>⚫️ Tópicos</h1>
+<ul>
+    <li><a href="#sobre">Sobre o Projeto</a></li>
+    <li><a href="#funcionalidades">Funcionalidades</a></li>
+    <li><a href="#layout">Layout</a></li>
+    <li><a href="#preRequisitos">Pré-requisitos</a></li>
+    <li><a href="#tecUtilizadas">Tecnologias Utilizadas</a></li>
+    <li><a href="#autor">Autor</a></li>
+</ul>
 
-## Available Scripts
+<hr/>
+<!-- Sobre o projeto -->
+<h2 id="sobre">💻 Sobre o Projeto</h2>
+<p align="justify">Layout desenvolvido no Teste da SBTUR (Viajar Faz Bem), utilizando a Api oficial da Marvel.<p>
 
-In the project directory, you can run:
+- [Protótipo](https://xd.adobe.com/spec/f6a84bef-95b8-4c0e-5126-ebac4f9aa822-8099/grid/)
+- [Api oficial da Marvel](https://developer.marvel.com/)
 
-### `npm start`
+<hr/>
+<!-- Funcionalidades -->
+<h2 id="funcionalidades">⚙️ Funcionalidades</h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Sessões:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [x] Header
+- [x] Capa
+- [x] Personagens em Destaque
+- [x] Lista de Personagens da Marvel
+- [x] Marvel Mastercard
+- [x] Novidades
+- [x] Footer
 
-### `npm test`
+<hr/>
+<!-- Pré-requisitos -->
+<h2 id="preRequisitos">🎯 Pré-requisitos</h2>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 
-### `npm run build`
+- Git
+- Node
+- Yarn
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Siga os passos seguintes para executar a aplicação.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+# Passo 1: Clone este repositório.
+$ git clone https://github.com/patrickbrito95/marvel.git
+# Passo 2: Entre na pasta sbtur-marvel.
+$ cd sbtur-marvel
+# Passo 3: Instale os pacotes utilizando o Yarn.
+$ yarn
+# Passo 4: Execute a aplicação.
+$ yarn start
+# Pronto, a aplicação será aberta no navegador com o endereço http://localhost:3000.
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<hr/>
+<!-- Tecnologias Utilizadas -->
+<h2 id="tecUtilizadas">🛠 Tecnologias Utilizadas</h2>
 
-### `npm run eject`
+As seguintes ferramentas foram usadas na construção do Layout:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React
+- Javascript
+- HTML
+- CSS
+- Axios
+- React-Responsive
+- env-cmd
+- Yarn
+- VS Code
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<hr/>
+<!-- Autor -->
+<h2 id="autor">👨‍💻 Autor</h2>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Patrick Araujo de Brito** @patrickbrito95
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **E-mail:** [patrickbrito95@gmail.com](patrickbrito95@gmail.com)
 
-## Learn More
+- **Portfólio:** [https://github.com/patrickbrito95](https://github.com/patrickbrito95)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **LinkedIn:** [www.linkedin.com/in/patrickbrito95](www.linkedin.com/in/patrickbrito95)
