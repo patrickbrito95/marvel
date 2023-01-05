@@ -3,9 +3,8 @@ import Banner from './Components/Banner';
 import Layout from './Layout';
 import AllCharactersList from './Sections/AllCharactersList';
 import CardsFanMarvel from './Sections/CardsFanMarvel';
+import Footer from './Sections/Footer';
 import HightLight from './Sections/Highlight';
-
-
 
 function App() {
   return (
@@ -15,6 +14,7 @@ function App() {
         <HightLight />
         <AllCharactersList />
         <CardsFanMarvel />
+        <Footer />
       </Layout>
     </div>
   );
