@@ -1,6 +1,6 @@
-import axios from 'axios'
+import axios from "axios";
 
 const apiMarvel = axios.create({
-    baseURL: 'http://gateway.marvel.com/v1/'
-})
-export default apiMarvel
+  baseURL: process.env.REACT_APP_BASE_URL,
+});
+export default apiMarvel;
