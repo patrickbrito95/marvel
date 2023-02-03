@@ -1,5 +1,5 @@
 <!-- Título -->
-<h1 align="center"><strong>Teste - SBTUR (Viajar Faz Bem)</strong></h1>
+<h1 align="center"><strong>Marvel Characters</strong></h1>
 
 <!-- Tópicos -->
 <h1>⚫️ Tópicos</h1>
@@ -15,7 +15,7 @@
 <hr/>
 <!-- Sobre o projeto -->
 <h2 id="sobre">💻 Sobre o Projeto</h2>
-<p align="justify">Layout desenvolvido no Teste da SBTUR (Viajar Faz Bem), utilizando a Api oficial da Marvel.<p>
+<p align="justify">Layout desenvolvido utilizando a Api oficial da Marvel.<p>
 
 - [Protótipo](https://xd.adobe.com/spec/f6a84bef-95b8-4c0e-5126-ebac4f9aa822-8099/grid/)
 - [Api oficial da Marvel](https://developer.marvel.com/)
